@@ -9,13 +9,14 @@ body {
   width: 100px;
   height: 100px;
   background-color: gold;
-  animation-name: move;
+  /* animation-name: move;
   animation-duration: 2s;
   animation-delay: 1s;
   animation-timming-function: linear;
   animation-iteration-count: 2;
   animation-direction: alternate-reverse;
-  animation-play-state: paused;
+  animation-play-state: paused; */
+  animation: move 2s 0s linear 2 alternate running;
 }
 
 @keyframes move {
